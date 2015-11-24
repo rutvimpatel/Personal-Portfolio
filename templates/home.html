@@ -1,0 +1,20 @@
+<!-- Rutvi Patel
+Personal Portfolio Challenge
+11/23/15 -->
+
+<!-- This is the Home Page -->
+
+<div>
+    <h2 class = "centerText">Thanks for visiting!</h2>
+    <div class = "container-fixed">
+    	<ul>
+    		<!-- Will print each piece of information -->
+    		<li ng-repeat="section in homeOb" class="" title="{{section.Section}}">
+    			<h3>{{section.Section}}</h3>
+    			<ul>
+    				<li ng-repeat = "info in section" ng-if="$index > 0" class = "" title = "info">{{info}}</li>		
+    			</ul>
+    		</li>
+    	</ul>
+    </div>
+</div>

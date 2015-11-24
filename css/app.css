@@ -1,0 +1,46 @@
+/*Rutvi Patel
+Personal Portfolio Challenge
+11/23/15
+This is the stylesheet for my personal Portfolio*/
+
+
+body {
+	background-color: #D0A9AA;
+}
+
+/*Styles for the header*/
+header {
+	border-bottom:1px solid #e3e3e3;
+	text-align: center
+}
+
+h1 {
+	margin: 0px;
+}
+
+/*This centers various items depending on class*/
+.centerText {
+	text-align: center;
+}
+
+/*These styles are for the screenshots of my projects*/
+.projectImg {
+	height: 200px;
+	padding-left: 1em;
+	padding-bottom: 1em;
+}
+
+/*Coloring and padding for parts of the header*/
+#header {
+	background-color: #422C2F;
+	color: white;
+	padding: 1em;
+}
+
+/*This styles the main content of the page*/
+#content {	
+	color: black;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2em;
+}

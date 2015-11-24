@@ -1,0 +1,32 @@
+<!-- This will print the projects page content -->
+
+<div>
+    <h2 class = "centerText">Projects</h2>
+    <div class="container-fixed">
+
+    	<ul>
+            <!-- will print each project listed in the file  -->
+    		<li ng-repeat="project in projectsOb" class="" title="{{project.Project-Name}}">
+    			<h3>{{project.Project_Name}}</h3> 
+    			<p>{{project.Date}}</p>
+    			<hr />
+    			<h4 class = "centerText">Description</h4>
+    			<p>{{project.Description}}</p>
+    			<p><a href = "{{project.Link}}">View Project</a></p> 
+    			<div class = "row">
+    				<div class = "col-md-6">
+    					<div class="container-fixed">
+    						<img class = "projectImg" ng-src= "{{project.Imgurl1}}">
+    					</div>
+    				</div>
+    				<div class = "col-md-6">
+    					<div class="container-fixed">
+    						<img class = "projectImg" ng-src= "{{project.Imgurl2}}">
+    					</div>
+    				</div>
+    			</div>
+
+    		</li>
+    	</ul>
+    </div>
+</div>
