@@ -21,7 +21,7 @@ var myApp = angular.module('myApp', ['ui.router'])
   })
   .state('projects', {
     url:'/projects',
-    templateUrl: 'templates/projects.html',
+    templateUrl: 'templates/Projects.html',
     controller: 'ProjectsController',
   })
 })
